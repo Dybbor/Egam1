@@ -164,7 +164,7 @@ namespace Egam2 {
 			// t2
 			// 
 			this->t2->AutoSize = true;
-			this->t2->Location = System::Drawing::Point(25, 54);
+			this->t2->Location = System::Drawing::Point(25, 12);
 			this->t2->Name = L"t2";
 			this->t2->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
 			this->t2->Size = System::Drawing::Size(43, 17);
@@ -177,7 +177,7 @@ namespace Egam2 {
 			// t3
 			// 
 			this->t3->AutoSize = true;
-			this->t3->Location = System::Drawing::Point(25, 80);
+			this->t3->Location = System::Drawing::Point(74, 12);
 			this->t3->Name = L"t3";
 			this->t3->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
 			this->t3->Size = System::Drawing::Size(43, 17);
@@ -190,7 +190,7 @@ namespace Egam2 {
 			// t4
 			// 
 			this->t4->AutoSize = true;
-			this->t4->Location = System::Drawing::Point(25, 106);
+			this->t4->Location = System::Drawing::Point(118, 12);
 			this->t4->Name = L"t4";
 			this->t4->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
 			this->t4->Size = System::Drawing::Size(43, 17);
@@ -203,7 +203,7 @@ namespace Egam2 {
 			// t5
 			// 
 			this->t5->AutoSize = true;
-			this->t5->Location = System::Drawing::Point(25, 132);
+			this->t5->Location = System::Drawing::Point(167, 12);
 			this->t5->Name = L"t5";
 			this->t5->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
 			this->t5->Size = System::Drawing::Size(43, 17);
@@ -216,7 +216,7 @@ namespace Egam2 {
 			// t6
 			// 
 			this->t6->AutoSize = true;
-			this->t6->Location = System::Drawing::Point(25, 158);
+			this->t6->Location = System::Drawing::Point(216, 12);
 			this->t6->Name = L"t6";
 			this->t6->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
 			this->t6->Size = System::Drawing::Size(43, 17);
@@ -229,7 +229,7 @@ namespace Egam2 {
 			// t7
 			// 
 			this->t7->AutoSize = true;
-			this->t7->Location = System::Drawing::Point(25, 184);
+			this->t7->Location = System::Drawing::Point(261, 12);
 			this->t7->Name = L"t7";
 			this->t7->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
 			this->t7->Size = System::Drawing::Size(43, 17);
@@ -242,7 +242,7 @@ namespace Egam2 {
 			// t8
 			// 
 			this->t8->AutoSize = true;
-			this->t8->Location = System::Drawing::Point(25, 210);
+			this->t8->Location = System::Drawing::Point(310, 12);
 			this->t8->Name = L"t8";
 			this->t8->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
 			this->t8->Size = System::Drawing::Size(43, 17);
@@ -255,7 +255,7 @@ namespace Egam2 {
 			// t9
 			// 
 			this->t9->AutoSize = true;
-			this->t9->Location = System::Drawing::Point(25, 236);
+			this->t9->Location = System::Drawing::Point(359, 12);
 			this->t9->Name = L"t9";
 			this->t9->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
 			this->t9->Size = System::Drawing::Size(43, 17);
@@ -268,7 +268,7 @@ namespace Egam2 {
 			// t10
 			// 
 			this->t10->AutoSize = true;
-			this->t10->Location = System::Drawing::Point(13, 262);
+			this->t10->Location = System::Drawing::Point(408, 12);
 			this->t10->Name = L"t10";
 			this->t10->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
 			this->t10->Size = System::Drawing::Size(55, 17);
@@ -280,18 +280,19 @@ namespace Egam2 {
 			// 
 			// dataGridView1
 			// 
+			this->dataGridView1->BackgroundColor = System::Drawing::Color::White;
 			this->dataGridView1->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-			this->dataGridView1->Location = System::Drawing::Point(74, 54);
+			this->dataGridView1->Location = System::Drawing::Point(12, 97);
 			this->dataGridView1->Name = L"dataGridView1";
 			this->dataGridView1->RowTemplate->DividerHeight = 2;
 			this->dataGridView1->RowTemplate->Resizable = System::Windows::Forms::DataGridViewTriState::False;
-			this->dataGridView1->Size = System::Drawing::Size(537, 249);
+			this->dataGridView1->Size = System::Drawing::Size(506, 267);
 			this->dataGridView1->TabIndex = 130;
 			// 
 			// size
 			// 
 			this->size->AutoSize = true;
-			this->size->Location = System::Drawing::Point(71, 9);
+			this->size->Location = System::Drawing::Point(14, 16);
 			this->size->Name = L"size";
 			this->size->Size = System::Drawing::Size(0, 13);
 			this->size->TabIndex = 131;
@@ -299,9 +300,9 @@ namespace Egam2 {
 			// 
 			// Count
 			// 
-			this->Count->Location = System::Drawing::Point(74, 482);
+			this->Count->Location = System::Drawing::Point(553, 48);
 			this->Count->Name = L"Count";
-			this->Count->Size = System::Drawing::Size(189, 51);
+			this->Count->Size = System::Drawing::Size(142, 42);
 			this->Count->TabIndex = 132;
 			this->Count->Text = L"Посчитать";
 			this->Count->UseVisualStyleBackColor = true;
@@ -309,9 +310,9 @@ namespace Egam2 {
 			// 
 			// button2
 			// 
-			this->button2->Location = System::Drawing::Point(422, 482);
+			this->button2->Location = System::Drawing::Point(277, 41);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(189, 51);
+			this->button2->Size = System::Drawing::Size(161, 25);
 			this->button2->TabIndex = 133;
 			this->button2->Text = L"Сгенерировать";
 			this->button2->UseVisualStyleBackColor = true;
@@ -319,14 +320,14 @@ namespace Egam2 {
 			// 
 			// ot
 			// 
-			this->ot->Location = System::Drawing::Point(377, 482);
+			this->ot->Location = System::Drawing::Point(48, 44);
 			this->ot->Name = L"ot";
 			this->ot->Size = System::Drawing::Size(39, 20);
 			this->ot->TabIndex = 134;
 			// 
 			// to
 			// 
-			this->to->Location = System::Drawing::Point(377, 513);
+			this->to->Location = System::Drawing::Point(121, 44);
 			this->to->Name = L"to";
 			this->to->Size = System::Drawing::Size(39, 20);
 			this->to->TabIndex = 135;
@@ -334,7 +335,7 @@ namespace Egam2 {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(351, 485);
+			this->label1->Location = System::Drawing::Point(22, 47);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(20, 13);
 			this->label1->TabIndex = 136;
@@ -343,7 +344,7 @@ namespace Egam2 {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(349, 516);
+			this->label2->Location = System::Drawing::Point(95, 47);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(22, 13);
 			this->label2->TabIndex = 137;
@@ -352,7 +353,7 @@ namespace Egam2 {
 			// isdoub
 			// 
 			this->isdoub->AutoSize = true;
-			this->isdoub->Location = System::Drawing::Point(617, 516);
+			this->isdoub->Location = System::Drawing::Point(168, 46);
 			this->isdoub->Name = L"isdoub";
 			this->isdoub->Size = System::Drawing::Size(103, 17);
 			this->isdoub->TabIndex = 138;
@@ -362,7 +363,7 @@ namespace Egam2 {
 			// det
 			// 
 			this->det->AutoSize = true;
-			this->det->Location = System::Drawing::Point(74, 23);
+			this->det->Location = System::Drawing::Point(98, 74);
 			this->det->Name = L"det";
 			this->det->Size = System::Drawing::Size(63, 17);
 			this->det->TabIndex = 139;
@@ -372,63 +373,66 @@ namespace Egam2 {
 			// sim
 			// 
 			this->sim->AutoSize = true;
-			this->sim->Location = System::Drawing::Point(144, 23);
+			this->sim->Location = System::Drawing::Point(162, 73);
 			this->sim->Name = L"sim";
-			this->sim->Size = System::Drawing::Size(71, 17);
+			this->sim->Size = System::Drawing::Size(101, 17);
 			this->sim->TabIndex = 140;
-			this->sim->Text = L"Simmetric";
+			this->sim->Text = L"Симметричкая";
 			this->sim->UseVisualStyleBackColor = true;
+			this->sim->CheckedChanged += gcnew System::EventHandler(this, &MyForm::sim_CheckedChanged);
 			// 
 			// diag
 			// 
 			this->diag->AutoSize = true;
-			this->diag->Location = System::Drawing::Point(222, 23);
+			this->diag->Location = System::Drawing::Point(261, 73);
 			this->diag->Name = L"diag";
-			this->diag->Size = System::Drawing::Size(48, 17);
+			this->diag->Size = System::Drawing::Size(100, 17);
 			this->diag->TabIndex = 141;
-			this->diag->Text = L"Diag";
+			this->diag->Text = L"Диагональная";
 			this->diag->UseVisualStyleBackColor = true;
 			// 
 			// posD
 			// 
 			this->posD->AutoSize = true;
-			this->posD->Location = System::Drawing::Point(277, 23);
+			this->posD->Location = System::Drawing::Point(359, 73);
 			this->posD->Name = L"posD";
-			this->posD->Size = System::Drawing::Size(60, 17);
+			this->posD->Size = System::Drawing::Size(174, 17);
 			this->posD->TabIndex = 142;
-			this->posD->Text = L"posDef";
+			this->posD->Text = L"положительно определенная";
 			this->posD->UseVisualStyleBackColor = true;
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(274, 489);
+			this->button1->Location = System::Drawing::Point(17, 70);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(69, 37);
+			this->button1->Size = System::Drawing::Size(70, 23);
 			this->button1->TabIndex = 143;
-			this->button1->Text = L"Check Mat";
+			this->button1->Text = L"Проверить";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
 			// dataGridView2
 			// 
+			this->dataGridView2->BackgroundColor = System::Drawing::Color::White;
 			this->dataGridView2->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-			this->dataGridView2->Location = System::Drawing::Point(74, 327);
+			this->dataGridView2->Location = System::Drawing::Point(5, 383);
 			this->dataGridView2->Name = L"dataGridView2";
-			this->dataGridView2->Size = System::Drawing::Size(537, 58);
+			this->dataGridView2->Size = System::Drawing::Size(641, 58);
 			this->dataGridView2->TabIndex = 144;
 			// 
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Location = System::Drawing::Point(280, 306);
+			this->label3->Location = System::Drawing::Point(225, 367);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(136, 13);
 			this->label3->TabIndex = 145;
 			this->label3->Text = L"Начальное приближение ";
+			this->label3->Click += gcnew System::EventHandler(this, &MyForm::label3_Click);
 			// 
 			// acc
 			// 
-			this->acc->Location = System::Drawing::Point(74, 391);
+			this->acc->Location = System::Drawing::Point(74, 447);
 			this->acc->Name = L"acc";
 			this->acc->Size = System::Drawing::Size(63, 20);
 			this->acc->TabIndex = 146;
@@ -436,7 +440,7 @@ namespace Egam2 {
 			// label4
 			// 
 			this->label4->AutoSize = true;
-			this->label4->Location = System::Drawing::Point(14, 394);
+			this->label4->Location = System::Drawing::Point(14, 450);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(54, 13);
 			this->label4->TabIndex = 147;
@@ -444,16 +448,17 @@ namespace Egam2 {
 			// 
 			// dataGridView3
 			// 
+			this->dataGridView3->BackgroundColor = System::Drawing::Color::White;
 			this->dataGridView3->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-			this->dataGridView3->Location = System::Drawing::Point(74, 417);
+			this->dataGridView3->Location = System::Drawing::Point(5, 476);
 			this->dataGridView3->Name = L"dataGridView3";
-			this->dataGridView3->Size = System::Drawing::Size(537, 58);
+			this->dataGridView3->Size = System::Drawing::Size(658, 58);
 			this->dataGridView3->TabIndex = 148;
 			// 
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->Location = System::Drawing::Point(308, 393);
+			this->label5->Location = System::Drawing::Point(274, 450);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(52, 13);
 			this->label5->TabIndex = 149;
@@ -462,7 +467,7 @@ namespace Egam2 {
 			// label6
 			// 
 			this->label6->AutoSize = true;
-			this->label6->Location = System::Drawing::Point(680, 101);
+			this->label6->Location = System::Drawing::Point(561, 103);
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(40, 13);
 			this->label6->TabIndex = 150;
@@ -471,7 +476,7 @@ namespace Egam2 {
 			// gaus
 			// 
 			this->gaus->AutoSize = true;
-			this->gaus->Location = System::Drawing::Point(735, 101);
+			this->gaus->Location = System::Drawing::Point(623, 103);
 			this->gaus->Name = L"gaus";
 			this->gaus->Size = System::Drawing::Size(0, 13);
 			this->gaus->TabIndex = 151;
@@ -479,7 +484,7 @@ namespace Egam2 {
 			// label8
 			// 
 			this->label8->AutoSize = true;
-			this->label8->Location = System::Drawing::Point(677, 136);
+			this->label8->Location = System::Drawing::Point(558, 138);
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(43, 13);
 			this->label8->TabIndex = 152;
@@ -488,7 +493,7 @@ namespace Egam2 {
 			// Kramer1
 			// 
 			this->Kramer1->AutoSize = true;
-			this->Kramer1->Location = System::Drawing::Point(735, 136);
+			this->Kramer1->Location = System::Drawing::Point(623, 138);
 			this->Kramer1->Name = L"Kramer1";
 			this->Kramer1->Size = System::Drawing::Size(0, 13);
 			this->Kramer1->TabIndex = 153;
@@ -496,7 +501,7 @@ namespace Egam2 {
 			// label7
 			// 
 			this->label7->AutoSize = true;
-			this->label7->Location = System::Drawing::Point(681, 174);
+			this->label7->Location = System::Drawing::Point(562, 176);
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(39, 13);
 			this->label7->TabIndex = 154;
@@ -505,7 +510,7 @@ namespace Egam2 {
 			// Zeidel1
 			// 
 			this->Zeidel1->AutoSize = true;
-			this->Zeidel1->Location = System::Drawing::Point(735, 174);
+			this->Zeidel1->Location = System::Drawing::Point(623, 176);
 			this->Zeidel1->Name = L"Zeidel1";
 			this->Zeidel1->Size = System::Drawing::Size(0, 13);
 			this->Zeidel1->TabIndex = 155;
@@ -513,7 +518,7 @@ namespace Egam2 {
 			// label9
 			// 
 			this->label9->AutoSize = true;
-			this->label9->Location = System::Drawing::Point(638, 209);
+			this->label9->Location = System::Drawing::Point(519, 211);
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(82, 13);
 			this->label9->TabIndex = 156;
@@ -522,7 +527,7 @@ namespace Egam2 {
 			// ei
 			// 
 			this->ei->AutoSize = true;
-			this->ei->Location = System::Drawing::Point(735, 209);
+			this->ei->Location = System::Drawing::Point(623, 211);
 			this->ei->Name = L"ei";
 			this->ei->Size = System::Drawing::Size(0, 13);
 			this->ei->TabIndex = 157;
@@ -530,7 +535,7 @@ namespace Egam2 {
 			// afd2
 			// 
 			this->afd2->AutoSize = true;
-			this->afd2->Location = System::Drawing::Point(669, 240);
+			this->afd2->Location = System::Drawing::Point(550, 242);
 			this->afd2->Name = L"afd2";
 			this->afd2->Size = System::Drawing::Size(51, 13);
 			this->afd2->TabIndex = 158;
@@ -539,7 +544,7 @@ namespace Egam2 {
 			// relax
 			// 
 			this->relax->AutoSize = true;
-			this->relax->Location = System::Drawing::Point(735, 240);
+			this->relax->Location = System::Drawing::Point(623, 242);
 			this->relax->Name = L"relax";
 			this->relax->Size = System::Drawing::Size(0, 13);
 			this->relax->TabIndex = 159;
@@ -547,7 +552,7 @@ namespace Egam2 {
 			// label10
 			// 
 			this->label10->AutoSize = true;
-			this->label10->Location = System::Drawing::Point(678, 266);
+			this->label10->Location = System::Drawing::Point(559, 268);
 			this->label10->Name = L"label10";
 			this->label10->Size = System::Drawing::Size(42, 13);
 			this->label10->TabIndex = 160;
@@ -556,7 +561,7 @@ namespace Egam2 {
 			// jor
 			// 
 			this->jor->AutoSize = true;
-			this->jor->Location = System::Drawing::Point(735, 266);
+			this->jor->Location = System::Drawing::Point(623, 268);
 			this->jor->Name = L"jor";
 			this->jor->Size = System::Drawing::Size(0, 13);
 			this->jor->TabIndex = 161;
@@ -564,7 +569,7 @@ namespace Egam2 {
 			// label11
 			// 
 			this->label11->AutoSize = true;
-			this->label11->Location = System::Drawing::Point(643, 290);
+			this->label11->Location = System::Drawing::Point(524, 292);
 			this->label11->Name = L"label11";
 			this->label11->Size = System::Drawing::Size(77, 13);
 			this->label11->TabIndex = 162;
@@ -573,7 +578,7 @@ namespace Egam2 {
 			// matr
 			// 
 			this->matr->AutoSize = true;
-			this->matr->Location = System::Drawing::Point(735, 290);
+			this->matr->Location = System::Drawing::Point(623, 292);
 			this->matr->Name = L"matr";
 			this->matr->Size = System::Drawing::Size(0, 13);
 			this->matr->TabIndex = 163;
@@ -582,7 +587,8 @@ namespace Egam2 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(841, 545);
+			this->BackColor = System::Drawing::Color::Bisque;
+			this->ClientSize = System::Drawing::Size(708, 546);
 			this->Controls->Add(this->matr);
 			this->Controls->Add(this->label11);
 			this->Controls->Add(this->jor);
@@ -628,6 +634,7 @@ namespace Egam2 {
 			this->Controls->Add(this->t2);
 			this->Name = L"MyForm";
 			this->Text = L"Решение СЛАУ";
+			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView3))->EndInit();
@@ -1008,5 +1015,11 @@ namespace Egam2 {
 		this->jor->Text = Convert::ToString(time[5]) + " mсs";
 		this->matr->Text = Convert::ToString(time[6]) + " mcs";
 	}
-	};
+	private: System::Void MyForm_Load(System::Object^  sender, System::EventArgs^  e) {
+	}
+private: System::Void label3_Click(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void sim_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
+}
+};
 }
